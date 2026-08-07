@@ -1,0 +1,19 @@
+conky.config = {
+    own_window = true,
+    own_window_type = 'desktop',
+    own_window_transparent = true,
+    own_window_hints = 'undecorated,below,skip_taskbar,skip_pager,sticky',
+    own_window_argb_visual = true,
+    alignment = 'top_left',
+    minimum_width = 1366,
+    minimum_height = 768,
+    gap_x = 0,
+    gap_y = 0,
+    lua_load = '~/lluvia.lua',
+    lua_draw_hook_pre = 'main',
+    update_interval = 0.03,
+    double_buffer = true,
+};
+
+-- Lua dibuja todo, dejamos esto vacío.
+conky.text = [[]];
